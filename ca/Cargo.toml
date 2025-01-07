@@ -1,0 +1,15 @@
+[package]
+name = "ca"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "ca"
+path = "src/lib.rs"
+
+[[bin]]
+name = "ca-bin"
+path = "src/bin.rs"
+
+[dependencies]
+chrono = "0.4.39"
